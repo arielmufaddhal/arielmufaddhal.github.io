@@ -1,9 +1,13 @@
+
 ---
 title: Activity Selection Problem
 date: 2025-06-11
 categories: [DESAIN DAN ANALISIS ALGORITMA, MATERI 1]
 tags: [algoritma, activity-selection-problem, daa, desain-dan-analisis-algoritma]     # TAG names should always be lowercase
 ---
+
+{% raw %}
+
 # Desain dan Analisis Algoritma: Activity Selection Problem
 
 ## Pengantar
@@ -56,21 +60,25 @@ ASP sering muncul dalam kehidupan nyata, contohnya:
 
 Misalnya kita memiliki daftar aktivitas berikut:
 
+```
 | Aktivitas | Start | Finish |
-|----------|-------|--------|
-| A        | 1     | 4      |
-| B        | 3     | 5      |
-| C        | 0     | 6      |
-| D        | 5     | 7      |
-| E        | 8     | 9      |
-| F        | 5     | 9      |
+|-----------|-------|--------|
+| A         | 1     | 4      |
+| B         | 3     | 5      |
+| C         | 0     | 6      |
+| D         | 5     | 7      |
+| E         | 8     | 9      |
+| F         | 5     | 9      |
+```
 
 ### Penyelesaian:
 
 - **Langkah 1**: Urutkan berdasarkan waktu selesai:
-  - A (1,4), B (3,5), D (5,7), E (8,9), F (5,9), C (0,6)
+  ```
+  A (1,4), B (3,5), D (5,7), E (8,9), F (5,9), C (0,6)
+  ```
 
-- **Langkah 2**: Pilih A (1,4)
+- **Langkah 2**: Pilih A `(1, 4)`
 
 - **Langkah 3**: Aktivitas D dimulai pada 5 ≥ 4 → pilih D  
   Aktivitas E dimulai pada 8 ≥ 7 → pilih E
@@ -84,14 +92,16 @@ Misalnya kita memiliki daftar aktivitas berikut:
 
 Coba kamu selesaikan soal berikut:
 
+```
 | Aktivitas | Start | Finish |
-|----------|-------|--------|
-| A        | 2     | 3      |
-| B        | 1     | 4      |
-| C        | 3     | 5      |
-| D        | 0     | 6      |
-| E        | 5     | 7      |
-| F        | 8     | 9      |
+|-----------|-------|--------|
+| A         | 2     | 3      |
+| B         | 1     | 4      |
+| C         | 3     | 5      |
+| D         | 0     | 6      |
+| E         | 5     | 7      |
+| F         | 8     | 9      |
+```
 
 Berapa aktivitas maksimal yang bisa kamu pilih tanpa tumpang tindih?
 
@@ -134,3 +144,31 @@ int main() {
     activitySelection(arr, n);
     return 0;
 }
+```
+
+### Output:
+```
+Aktivitas yang dipilih:
+(1, 4)
+(5, 7)
+(8, 9)
+```
+
+---
+
+## Kesimpulan
+
+**Activity Selection Problem (ASP)** merupakan salah satu contoh masalah optimasi yang dapat diselesaikan secara efisien menggunakan **Greedy Algorithm**. Dengan memilih aktivitas yang selesai paling cepat dan tidak bertabrakan, kita dapat memaksimalkan jumlah aktivitas yang bisa dilakukan. Pendekatan ini sangat cocok untuk berbagai aplikasi penjadwalan di dunia nyata karena:
+- Logikanya sederhana
+- Kompleksitas waktunya efisien
+- Implementasinya relatif mudah
+
+---
+
+## Pertanyaan Diskusi
+
+> “Cukup pertanyaanmu saja yang diutarakan, perasaanmu jangan.” 😄
+
+---
+
+{% endraw %}
