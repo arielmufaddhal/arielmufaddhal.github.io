@@ -97,7 +97,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
-avatar: https://avatars.githubusercontent.com/u/180246963?s=400&v=4 # the avatar on sidebar, support local or CORS resources
+avatar: https://avatars.githubusercontent.com/u/180246963?s=400&u=8a86fca839c57e73b9822758d2fe2b5fe3e6be81&v=4 # the avatar on sidebar, support local or CORS resources
 # avatar: /assets/img/avatar.jpg  # uncomment and add your avatar path if you have one
 
 # The URL of the site-wide social preview image used in SEO og:image meta tag.
