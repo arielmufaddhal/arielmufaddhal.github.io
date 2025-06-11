@@ -1,5 +1,5 @@
 ---
-title: Activity Selection Problem
+title: Activity Selection Problem🗓️
 date: 2025-06-11
 categories: [DESAIN DAN ANALISIS ALGORITMA, MATERI 1]
 tags: [algoritma, activity-selection-problem, daa, desain-dan-analisis-algoritma]     # TAG names should always be lowercase
