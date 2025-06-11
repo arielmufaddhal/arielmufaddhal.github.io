@@ -1,7 +1,7 @@
 ---
 title: N-Queens Problem♟️
 date: 2025-06-11
-categories: [DESAIN DAN ANALISIS ALGORITMA, N-QUEENS PROBLEM♟️]
+categories: [DESAIN DAN ANALISIS ALGORITMA, MATERI 4]
 tags: [algoritma, n-queens-problem, daa, desain-dan-analisis-algoritma]     # TAG names should always be lowercase
 ---
 # Mengatur Ratu: Menaklukkan N-Queens Problem 

@@ -1,7 +1,7 @@
 ---
 title: Huffman Coding🌳
 date: 2025-06-11
-categories: [DESAIN DAN ANALISIS ALGORITMA, HUFFMAN CODING🌳]
+categories: [DESAIN DAN ANALISIS ALGORITMA, MATERI 3]
 tags: [algoritma, huffman-coding, daa, desain-dan-analisis-algoritma]     # TAG names should always be lowercase
 ---
 # Meretas Kompresi: Menguasai Huffman Coding 

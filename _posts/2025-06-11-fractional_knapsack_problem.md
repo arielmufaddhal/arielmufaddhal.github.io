@@ -1,7 +1,7 @@
 ---
 title: Fractional Knapsack🎒
 date: 2025-06-11
-categories: [DESAIN DAN ANALISIS ALGORITMA, FRACTIONAL KNAPSACK🎒]
+categories: [DESAIN DAN ANALISIS ALGORITMA, MATERI 2]
 tags: [algoritma, fractional-knapsack, daa, desain-dan-analisis-algoritma]     # TAG names should always be lowercase
 ---
 # Mengisi Ransel Penuh Nilai: Memahami Fractional Knapsack Problem
